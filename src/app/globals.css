@@ -47,6 +47,7 @@
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
 html {
@@ -143,7 +144,7 @@ html {
 
 /* Smooth transitions */
 .transition-smooth {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .recharts-wrapper {

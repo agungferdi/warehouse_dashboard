@@ -53,7 +53,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-background to-blue-50/30 dark:from-background dark:via-background dark:to-slate-900/50">
+    <div className="min-h-screen bg-gradient-to-br from-background via-background to-background/80 dark:from-background dark:via-background dark:to-slate-900/50">
       {/* Header */}
       <DashboardHeader />
 
